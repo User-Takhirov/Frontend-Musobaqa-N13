@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.ant-table table {
+  font-size: 20px;
+}
+.search-layout {
+  padding: 11px 0 11px 38px;
+  border: 1px solid #e3e1e1;
+  border-radius: 8px;
+  width: 346px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.demo-logo-vertical {
+  color: white;
+  padding-left: 25px;
+  margin-bottom: 28px;
+  margin-top: 16px;
+}
+
+.ant-layout-sider .ant-menu-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: #2c3030 !important;
+  opacity: 0.4;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.ant-layout-sider .ant-menu-item:hover {
+  opacity: 1 !important;
+  color: #2c3030 !important;
+  border-radius: 8px;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.ant-layout-sider .ant-menu-item-selected {
+  color: red !important;
+  opacity: 1 !important;
+  background-color: #e8e8e8 !important;
+}
+
+.ant-layout-sider .ant-menu-item .anticon {
+  color: green !important;
+  opacity: 0.3;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+    
+.ant-layout-sider .ant-menu-item:hover .anticon {
+  opacity: 1 !important;
+  color: darkgreen !important;
+  transform: scale(1.2);
+}
+
+.ant-layout-sider .ant-menu-item-selected .anticon {
+  color: red !important;
+  opacity: 1 !important;
+}
+
+.ant-layout-sider .ant-menu-item-selected:hover .anticon {
+  color: #14b890 !important;
+  transform: scale(1.2);
+}
+
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.3s ease; 
+}
+
+body.dark {
+  background-color: #4fb4e3;
+  color: #ffffff;
+  transition: all 0.3s ease; 
+}
+
+
+
+/* Light Mode (Default) */
+.ant-table {
+  background-color: white;
+  color: #333;
+}
+
+.ant-table th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.ant-table td {
+  color: #333;
+}
+
+/* Dark Mode */
+.dark-mode .ant-table {
+  background-color: #1e1e1e; /* Dark background for table */
+  color: #e0e0e0; /* Light text */
+}
+
+.dark-mode .ant-table th {
+  background-color: #333; 
+  color: #e0e0e0; 
+}
+
+.dark-mode .ant-table td {
+  color: #e0e0e0;
+}
+
+.dark-mode .ant-table .ant-table-thead > tr > th {
+  border-bottom: 1px solid #444; 
+}
+
+.dark-mode .ant-table .ant-table-tbody > tr > td {
+  border-bottom: 1px solid #444; 
+}
+
+.dark-mode .ant-table-bordered .ant-table-container {
+  border: 1px solid #444; 
+}
+
+.dark-row {
+  background: #282828;
+}
+
+
+.light-row {
+  background: #f9f9f9;
+}

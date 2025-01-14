@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.64.0",
+    "@types/js-cookie": "^3.0.6",
     "antd": "^5.23.0",
     "axios": "^1.7.9",
+    "cookie": "^1.0.2",
+    "js-cookie": "^3.0.5",
+    "nanoid": "^5.0.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.54.2",
